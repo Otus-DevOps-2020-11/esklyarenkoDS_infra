@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
- sudo apt-get -y update
- sudo apt-get -y install ruby-full ruby-bundler build-essential git
- 
+#!/bin/bash
+echo "install ruby"
+sudo apt update
+sudo apt install -y ruby-full ruby-bundler build-essential
+echo "ruby installed"
