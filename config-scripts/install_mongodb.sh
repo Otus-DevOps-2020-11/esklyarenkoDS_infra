@@ -8,4 +8,4 @@ apt-get update
 apt-get install -y mongodb-org
 systemctl start mongod
 systemctl enable mongod
-echo "mongodb installed" 
+echo "mongodb installed"
