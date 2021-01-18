@@ -1,6 +1,21 @@
 # esklyarenkoDS_infra
 esklyarenkoDS Infra repository
 
+Домашняя работа №10
+
+- Установили pip и Ansible
+- Подняли инфроаструктуру из окружения stage через Terraform
+- Создали inventory и inventory.yml файлы
+- Убедилиись, что Ansible может управлять хостами командами
+    ansible appserver -i ./inventory -m ping
+    ansible dbserver -i ./inventory -m ping
+- Создали конфигурационный файл ansible.cfg с параметрами
+- Поменяли inventory для возможности работы с группами хостов и проверили работу
+- Проверили выполнение команд с помощью модулей command, systemd, service
+- Написали плейбукв файле clone.yml, который клонирует репозиторий и проверили его работу
+- Команда ansible app -m command -a 'rm -rf ~/reddit' удаляет reddit, поэтому при повторном
+  выполнении плейбука появляется статус changed=1
+
 Домашняя работа №9
 
 - Проверили зависимость и порядок создания ресурсов
