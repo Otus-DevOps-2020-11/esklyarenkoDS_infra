@@ -1,6 +1,15 @@
 # esklyarenkoDS_infra
 esklyarenkoDS Infra repository
 
+Домашнаяя работа №17
+
+- Создали виртуальну машину на YC
+- Установили docker, подготовили docker-compose.yml, установили Gitlab CI
+- В админке gitlab сдулали настройки (уст. пароля, создание группы, проекта и т.п.)
+- Добавили runner и pipeline
+- Добавили Reddit
+- Добавили в pipeline задачи, окружения (в т.ч. динамические), условия запуска задач и т.п.
+
 Домашняя работа №13
 
 - Установили VirtualBox и Vagrant
